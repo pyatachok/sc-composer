@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4fdf14200c0c9f7fff4e369bdd96669f",
+    "content-hash": "840b8cbaadf61cea66924b78c87e9630",
     "packages": [
         {
             "name": "bazilio/yii2-newrelic",
