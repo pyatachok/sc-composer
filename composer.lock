@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e17571fbee9e42925a36c06bd2290ed0",
+    "content-hash": "4fdf14200c0c9f7fff4e369bdd96669f",
     "packages": [
         {
             "name": "bazilio/yii2-newrelic",
@@ -466,16 +466,16 @@
         },
         {
             "name": "indigerd/yii2-rest",
-            "version": "v1.0.6",
+            "version": "v1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Indigerd/yii2-rest.git",
-                "reference": "047be339d7d359a386741829f1fdd32b6635c08d"
+                "reference": "2c41c0868bcae94a6f3b3011e932215914a8d4e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Indigerd/yii2-rest/zipball/047be339d7d359a386741829f1fdd32b6635c08d",
-                "reference": "047be339d7d359a386741829f1fdd32b6635c08d",
+                "url": "https://api.github.com/repos/Indigerd/yii2-rest/zipball/2c41c0868bcae94a6f3b3011e932215914a8d4e4",
+                "reference": "2c41c0868bcae94a6f3b3011e932215914a8d4e4",
                 "shasum": ""
             },
             "require": {
@@ -505,7 +505,7 @@
                 "rest",
                 "yii2"
             ],
-            "time": "2017-10-11T07:24:23+00:00"
+            "time": "2017-11-27T14:44:01+00:00"
         },
         {
             "name": "mice-tm/yii2-queue",
@@ -1002,32 +1002,31 @@
         },
         {
             "name": "trntv/yii2-command-bus",
-            "version": "2.1.3",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/trntv/yii2-command-bus.git",
-                "reference": "f7565f31c666b5c663a95796e5cb2b17561f6103"
+                "reference": "dfbb7a58b67c431ea1eea8136e2d3d3c04bb9840"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/trntv/yii2-command-bus/zipball/f7565f31c666b5c663a95796e5cb2b17561f6103",
-                "reference": "f7565f31c666b5c663a95796e5cb2b17561f6103",
+                "url": "https://api.github.com/repos/trntv/yii2-command-bus/zipball/dfbb7a58b67c431ea1eea8136e2d3d3c04bb9840",
+                "reference": "dfbb7a58b67c431ea1eea8136e2d3d3c04bb9840",
                 "shasum": ""
             },
             "require": {
-                "yiisoft/yii2": "^2.0"
+                "yiisoft/yii2": "^2.0",
+                "yiisoft/yii2-queue": "^2.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.8",
                 "predis/predis": "^1.0",
                 "symfony/process": "^3.0",
-                "yiisoft/yii2-dev": "^2.0",
-                "yiisoft/yii2-queue": "dev-master@dev"
+                "yiisoft/yii2-dev": "^2.0"
             },
             "suggest": {
-                "ext-pcntl": "*",
                 "symfony/process": "^3.0",
-                "yiisoft/yii2-queue": "dev-master@dev"
+                "yiisoft/yii2-queue": "^2.0"
             },
             "type": "yii2-extension",
             "autoload": {
@@ -1047,13 +1046,12 @@
             ],
             "description": "Yii2 Command Bus extension",
             "keywords": [
-                "active-record",
-                "cache",
-                "redis",
-                "session",
+                "command bus",
+                "extension",
+                "queue",
                 "yii2"
             ],
-            "time": "2017-01-20T11:43:28+00:00"
+            "time": "2017-08-27T15:20:59+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -2643,16 +2641,16 @@
         },
         {
             "name": "phpunit/php-file-iterator",
-            "version": "1.4.4",
+            "version": "1.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
-                "reference": "3d478c5f9e8bb02b484a3fdc82693a460d7ee268"
+                "reference": "730b01bc3e867237eaac355e06a36b85dd93a8b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/3d478c5f9e8bb02b484a3fdc82693a460d7ee268",
-                "reference": "3d478c5f9e8bb02b484a3fdc82693a460d7ee268",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/730b01bc3e867237eaac355e06a36b85dd93a8b4",
+                "reference": "730b01bc3e867237eaac355e06a36b85dd93a8b4",
                 "shasum": ""
             },
             "require": {
@@ -2686,7 +2684,7 @@
                 "filesystem",
                 "iterator"
             ],
-            "time": "2017-11-27T07:49:00+00:00"
+            "time": "2017-11-27T13:52:08+00:00"
         },
         {
             "name": "phpunit/php-text-template",
